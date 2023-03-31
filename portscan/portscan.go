@@ -1,4 +1,4 @@
-package main
+package portscan
 
 import (
 	"flag"
@@ -9,7 +9,7 @@ import (
 
 var site = flag.String("site", "scanme.nmap.org", "URL to scan")
 
-func main() {
+func MainPortscan() {
 
 	// Ej: go run port.go --site=scanme.nmap.org
 
